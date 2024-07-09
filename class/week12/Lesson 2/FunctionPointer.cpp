@@ -25,7 +25,7 @@ int main(){
     pFuncArray[0] = S; //함수포인터 초기화. S 함수의 주소를 배열의 첫번째 요소에 할당
     pFuncArray[1] = C;
     pFuncArray[2] = W;
-    
+      
     
     pFuncArray[0](i,j); //배열의 첫번째 주소가 가리키는 함수를 호출
 
